@@ -1,0 +1,34 @@
+<?php
+
+$db_host = 'localhost';
+$db_user = 'root';
+$db_password = '';
+$db_name = 'vowsbees';
+
+$db_connect = mysqli_connect($db_host, $db_user, $db_password, $db_name);
+if(!$db_connect){
+    die("Database Connection Failed");
+}
+?>
+
+
+<?
+
+// Bellow information is what was placed on the server BlueHost:
+
+/*
+<?php
+
+$db_host = "localhost";
+$db_user = "ordervbc_BoShhaab";
+$db_password = "Ah@Someone's1Name?";
+$db_name = "ordervbc_vowsbees";
+
+$db_connect = mysqli_connect($db_host, $db_user, $db_password, $db_name);
+if(!$db_connect){
+    die("Database Connection Failed");
+}
+?>
+*/
+
+?>
